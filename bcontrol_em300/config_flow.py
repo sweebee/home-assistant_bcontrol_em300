@@ -33,15 +33,9 @@ class BControlEM300ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
 
 class BControlEM300OptionsFlow(config_entries.OptionsFlow):
-    def __init__(self, config_entry):
-        self.config_entry = config_entry
-
     async def async_step_init(self, user_input=None):
         if user_input is not None:
-            self.hass.config_entries.async_update_entry(
-                self.config_entry, options=user_input
-            )
-            return self.async_abort(reason="options_updated")
+            return self.async_create_entry(title="", data=user_input)
 
         return self.async_show_form(
             step_id="init",
