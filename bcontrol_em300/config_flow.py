@@ -29,7 +29,7 @@ class BControlEM300ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     @staticmethod
     @callback
     def async_get_options_flow(config_entry):
-        return BControlEM300OptionsFlow(config_entry)
+        return BControlEM300OptionsFlow()
 
 
 class BControlEM300OptionsFlow(config_entries.OptionsFlow):
