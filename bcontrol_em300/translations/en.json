@@ -1,0 +1,214 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure B-Control EM300",
+        "description": "Enter the connection details for your B-Control EM300 energy meter",
+        "data": {
+          "host": "Host (IP address or hostname)",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to device",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error occurred"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "B-Control EM300 Options",
+        "description": "Configure the settings for your B-Control EM300",
+        "data": {
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "active_powerplus": {
+        "name": "Active power import"
+      },
+      "total_energyplus": {
+        "name": "Energy import"
+      },
+      "active_powerminus": {
+        "name": "Active power export"
+      },
+      "total_energyminus": {
+        "name": "Energy export"
+      },
+      "reactive_powerplus": {
+        "name": "Reactive power import"
+      },
+      "reactive_energyplus": {
+        "name": "Reactive energy import"
+      },
+      "apparent_powerplus": {
+        "name": "Apparent power import"
+      },
+      "apparent_energyplus": {
+        "name": "Apparent energy import"
+      },
+      "reactive_powerminus": {
+        "name": "Reactive power export"
+      },
+      "reactive_energyminus": {
+        "name": "Reactive energy export"
+      },
+      "apparent_powerminus": {
+        "name": "Apparent power export"
+      },
+      "apparent_energyminus": {
+        "name": "Apparent energy export"
+      },
+      "power_factor": {
+        "name": "Power factor"
+      },
+      "frequency": {
+        "name": "Frequency"
+      },
+      "l1_active_powerplus": {
+        "name": "L1 Active power import"
+      },
+      "l1_total_energyplus": {
+        "name": "L1 Energy import"
+      },
+      "l1_active_powerminus": {
+        "name": "L1 Active power export"
+      },
+      "l1_total_energyminus": {
+        "name": "L1 Energy export"
+      },
+      "l1_reactive_powerplus": {
+        "name": "L1 Reactive power import"
+      },
+      "l1_reactive_energyplus": {
+        "name": "L1 Reactive energy import"
+      },
+      "l1_apparent_powerplus": {
+        "name": "L1 Apparent power import"
+      },
+      "l1_apparent_energyplus": {
+        "name": "L1 Apparent energy import"
+      },
+      "l1_reactive_powerminus": {
+        "name": "L1 Reactive power export"
+      },
+      "l1_reactive_energyminus": {
+        "name": "L1 Reactive energy export"
+      },
+      "l1_apparent_powerminus": {
+        "name": "L1 Apparent power export"
+      },
+      "l1_apparent_energyminus": {
+        "name": "L1 Apparent energy export"
+      },
+      "l1_power_factor": {
+        "name": "L1 Power factor"
+      },
+      "l1_voltage": {
+        "name": "L1 Voltage"
+      },
+      "l1_current": {
+        "name": "L1 Current"
+      },
+      "l2_active_powerplus": {
+        "name": "L2 Active power import"
+      },
+      "l2_total_energyplus": {
+        "name": "L2 Energy import"
+      },
+      "l2_active_powerminus": {
+        "name": "L2 Active power export"
+      },
+      "l2_total_energyminus": {
+        "name": "L2 Energy export"
+      },
+      "l2_reactive_powerplus": {
+        "name": "L2 Reactive power import"
+      },
+      "l2_reactive_energyplus": {
+        "name": "L2 Reactive energy import"
+      },
+      "l2_apparent_powerplus": {
+        "name": "L2 Apparent power import"
+      },
+      "l2_apparent_energyplus": {
+        "name": "L2 Apparent energy import"
+      },
+      "l2_reactive_powerminus": {
+        "name": "L2 Reactive power export"
+      },
+      "l2_reactive_energyminus": {
+        "name": "L2 Reactive energy export"
+      },
+      "l2_apparent_powerminus": {
+        "name": "L2 Apparent power export"
+      },
+      "l2_apparent_energyminus": {
+        "name": "L2 Apparent energy export"
+      },
+      "l2_power_factor": {
+        "name": "L2 Power factor"
+      },
+      "l2_voltage": {
+        "name": "L2 Voltage"
+      },
+      "l2_current": {
+        "name": "L2 Current"
+      },
+      "l3_active_powerplus": {
+        "name": "L3 Active power import"
+      },
+      "l3_total_energyplus": {
+        "name": "L3 Energy import"
+      },
+      "l3_active_powerminus": {
+        "name": "L3 Active power export"
+      },
+      "l3_total_energyminus": {
+        "name": "L3 Energy export"
+      },
+      "l3_reactive_powerplus": {
+        "name": "L3 Reactive power import"
+      },
+      "l3_reactive_energyplus": {
+        "name": "L3 Reactive energy import"
+      },
+      "l3_apparent_powerplus": {
+        "name": "L3 Apparent power import"
+      },
+      "l3_apparent_energyplus": {
+        "name": "L3 Apparent energy import"
+      },
+      "l3_reactive_powerminus": {
+        "name": "L3 Reactive power export"
+      },
+      "l3_reactive_energyminus": {
+        "name": "L3 Reactive energy export"
+      },
+      "l3_apparent_powerminus": {
+        "name": "L3 Apparent power export"
+      },
+      "l3_apparent_energyminus": {
+        "name": "L3 Apparent energy export"
+      },
+      "l3_power_factor": {
+        "name": "L3 Power factor"
+      },
+      "l3_voltage": {
+        "name": "L3 Voltage"
+      },
+      "l3_current": {
+        "name": "L3 Current"
+      }
+    }
+  }
+}

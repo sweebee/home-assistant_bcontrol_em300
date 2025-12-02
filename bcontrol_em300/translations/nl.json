@@ -1,0 +1,217 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "B-Control EM300 configureren",
+        "description": "Voer de verbindingsgegevens in voor je B-Control EM300 energiemeter",
+        "data": {
+          "host": "Host (IP-adres of hostnaam)",
+          "password": "Wachtwoord"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Kan geen verbinding maken met het apparaat",
+      "invalid_auth": "Ongeldige authenticatie",
+      "unknown": "Onverwachte fout opgetreden"
+    },
+    "abort": {
+      "already_configured": "Apparaat is al geconfigureerd"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "B-Control EM300 opties",
+        "description": "Configureer de instellingen voor je B-Control EM300",
+        "data": {
+          "scan_interval": "Update interval (seconden)"
+        }
+      }
+    },
+    "abort": {
+      "options_updated": "Opties bijgewerkt"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "active_powerplus": {
+        "name": "Vermogen afname"
+      },
+      "total_energyplus": {
+        "name": "Energie afname"
+      },
+      "active_powerminus": {
+        "name": "Vermogen teruglevering"
+      },
+      "total_energyminus": {
+        "name": "Energie teruglevering"
+      },
+      "reactive_powerplus": {
+        "name": "Blindvermogen afname"
+      },
+      "reactive_energyplus": {
+        "name": "Blindenergie afname"
+      },
+      "apparent_powerplus": {
+        "name": "Schijnbaar vermogen afname"
+      },
+      "apparent_energyplus": {
+        "name": "Schijnbare energie afname"
+      },
+      "reactive_powerminus": {
+        "name": "Blindvermogen teruglevering"
+      },
+      "reactive_energyminus": {
+        "name": "Blindenergie teruglevering"
+      },
+      "apparent_powerminus": {
+        "name": "Schijnbaar vermogen teruglevering"
+      },
+      "apparent_energyminus": {
+        "name": "Schijnbare energie teruglevering"
+      },
+      "power_factor": {
+        "name": "Arbeidsfactor"
+      },
+      "frequency": {
+        "name": "Frequentie"
+      },
+      "l1_active_powerplus": {
+        "name": "L1 Vermogen afname"
+      },
+      "l1_total_energyplus": {
+        "name": "L1 Energie afname"
+      },
+      "l1_active_powerminus": {
+        "name": "L1 Vermogen teruglevering"
+      },
+      "l1_total_energyminus": {
+        "name": "L1 Energie teruglevering"
+      },
+      "l1_reactive_powerplus": {
+        "name": "L1 Blindvermogen afname"
+      },
+      "l1_reactive_energyplus": {
+        "name": "L1 Blindenergie afname"
+      },
+      "l1_apparent_powerplus": {
+        "name": "L1 Schijnbaar vermogen afname"
+      },
+      "l1_apparent_energyplus": {
+        "name": "L1 Schijnbare energie afname"
+      },
+      "l1_reactive_powerminus": {
+        "name": "L1 Blindvermogen teruglevering"
+      },
+      "l1_reactive_energyminus": {
+        "name": "L1 Blindenergie teruglevering"
+      },
+      "l1_apparent_powerminus": {
+        "name": "L1 Schijnbaar vermogen teruglevering"
+      },
+      "l1_apparent_energyminus": {
+        "name": "L1 Schijnbare energie teruglevering"
+      },
+      "l1_power_factor": {
+        "name": "L1 Arbeidsfactor"
+      },
+      "l1_voltage": {
+        "name": "L1 Spanning"
+      },
+      "l1_current": {
+        "name": "L1 Stroom"
+      },
+      "l2_active_powerplus": {
+        "name": "L2 Vermogen afname"
+      },
+      "l2_total_energyplus": {
+        "name": "L2 Energie afname"
+      },
+      "l2_active_powerminus": {
+        "name": "L2 Vermogen teruglevering"
+      },
+      "l2_total_energyminus": {
+        "name": "L2 Energie teruglevering"
+      },
+      "l2_reactive_powerplus": {
+        "name": "L2 Blindvermogen afname"
+      },
+      "l2_reactive_energyplus": {
+        "name": "L2 Blindenergie afname"
+      },
+      "l2_apparent_powerplus": {
+        "name": "L2 Schijnbaar vermogen afname"
+      },
+      "l2_apparent_energyplus": {
+        "name": "L2 Schijnbare energie afname"
+      },
+      "l2_reactive_powerminus": {
+        "name": "L2 Blindvermogen teruglevering"
+      },
+      "l2_reactive_energyminus": {
+        "name": "L2 Blindenergie teruglevering"
+      },
+      "l2_apparent_powerminus": {
+        "name": "L2 Schijnbaar vermogen teruglevering"
+      },
+      "l2_apparent_energyminus": {
+        "name": "L2 Schijnbare energie teruglevering"
+      },
+      "l2_power_factor": {
+        "name": "L2 Arbeidsfactor"
+      },
+      "l2_voltage": {
+        "name": "L2 Spanning"
+      },
+      "l2_current": {
+        "name": "L2 Stroom"
+      },
+      "l3_active_powerplus": {
+        "name": "L3 Vermogen afname"
+      },
+      "l3_total_energyplus": {
+        "name": "L3 Energie afname"
+      },
+      "l3_active_powerminus": {
+        "name": "L3 Vermogen teruglevering"
+      },
+      "l3_total_energyminus": {
+        "name": "L3 Energie teruglevering"
+      },
+      "l3_reactive_powerplus": {
+        "name": "L3 Blindvermogen afname"
+      },
+      "l3_reactive_energyplus": {
+        "name": "L3 Blindenergie afname"
+      },
+      "l3_apparent_powerplus": {
+        "name": "L3 Schijnbaar vermogen afname"
+      },
+      "l3_apparent_energyplus": {
+        "name": "L3 Schijnbare energie afname"
+      },
+      "l3_reactive_powerminus": {
+        "name": "L3 Blindvermogen teruglevering"
+      },
+      "l3_reactive_energyminus": {
+        "name": "L3 Blindenergie teruglevering"
+      },
+      "l3_apparent_powerminus": {
+        "name": "L3 Schijnbaar vermogen teruglevering"
+      },
+      "l3_apparent_energyminus": {
+        "name": "L3 Schijnbare energie teruglevering"
+      },
+      "l3_power_factor": {
+        "name": "L3 Arbeidsfactor"
+      },
+      "l3_voltage": {
+        "name": "L3 Spanning"
+      },
+      "l3_current": {
+        "name": "L3 Stroom"
+      }
+    }
+  }
+}
