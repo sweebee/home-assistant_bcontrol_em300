@@ -32,7 +32,7 @@ SENSOR_DEFINITIONS = {
     ),
     "total_energyplus": (
         "Energie Bezug",
-        UnitOfEnergy.KILO_WATT_HOUR,
+        UnitOfEnergy.WATT_HOUR,
         SensorDeviceClass.ENERGY,
         SensorStateClass.TOTAL_INCREASING,
     ),
@@ -44,7 +44,7 @@ SENSOR_DEFINITIONS = {
     ),
     "total_energyminus": (
         "Energie Einspeisung",
-        UnitOfEnergy.KILO_WATT_HOUR,
+        UnitOfEnergy.WATT_HOUR,
         SensorDeviceClass.ENERGY,
         SensorStateClass.TOTAL_INCREASING,
     ),
@@ -117,7 +117,7 @@ SENSOR_DEFINITIONS = {
     ),
     "l1_total_energyplus": (
         "L1 Energie Bezug",
-        UnitOfEnergy.KILO_WATT_HOUR,
+        UnitOfEnergy.WATT_HOUR,
         SensorDeviceClass.ENERGY,
         SensorStateClass.TOTAL_INCREASING,
     ),
@@ -129,7 +129,7 @@ SENSOR_DEFINITIONS = {
     ),
     "l1_total_energyminus": (
         "L1 Energie Einspeisung",
-        UnitOfEnergy.KILO_WATT_HOUR,
+        UnitOfEnergy.WATT_HOUR,
         SensorDeviceClass.ENERGY,
         SensorStateClass.TOTAL_INCREASING,
     ),
@@ -208,7 +208,7 @@ SENSOR_DEFINITIONS = {
     ),
     "l2_total_energyplus": (
         "L2 Energie Bezug",
-        UnitOfEnergy.KILO_WATT_HOUR,
+        UnitOfEnergy.WATT_HOUR,
         SensorDeviceClass.ENERGY,
         SensorStateClass.TOTAL_INCREASING,
     ),
@@ -220,7 +220,7 @@ SENSOR_DEFINITIONS = {
     ),
     "l2_total_energyminus": (
         "L2 Energie Einspeisung",
-        UnitOfEnergy.KILO_WATT_HOUR,
+        UnitOfEnergy.WATT_HOUR,
         SensorDeviceClass.ENERGY,
         SensorStateClass.TOTAL_INCREASING,
     ),
@@ -299,7 +299,7 @@ SENSOR_DEFINITIONS = {
     ),
     "l3_total_energyplus": (
         "L3 Energie Bezug",
-        UnitOfEnergy.KILO_WATT_HOUR,
+        UnitOfEnergy.WATT_HOUR,
         SensorDeviceClass.ENERGY,
         SensorStateClass.TOTAL_INCREASING,
     ),
@@ -311,7 +311,7 @@ SENSOR_DEFINITIONS = {
     ),
     "l3_total_energyminus": (
         "L3 Energie Einspeisung",
-        UnitOfEnergy.KILO_WATT_HOUR,
+        UnitOfEnergy.WATT_HOUR,
         SensorDeviceClass.ENERGY,
         SensorStateClass.TOTAL_INCREASING,
     ),
